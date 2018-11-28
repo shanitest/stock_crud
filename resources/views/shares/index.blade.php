@@ -13,7 +13,7 @@
         </div><br />
     @endif
 
-    <a href="{{ route('shares.create')  }}" class="btn btn-primary float-right mb-2">Add Stock</a>
+    <a href="{{ route('shares.create')  }}" class="btn btn-primary float-right mb-2">Add New Stock</a>
 
     <table class="table table-striped">
         <thead>
