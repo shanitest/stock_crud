@@ -17,7 +17,8 @@ class ShareController extends Controller
         //
         $shares = Share::all();
 
-        return view('shares.index',compact('shares'));
+        return response()->json(['shares'=>$shares,'status'=>'success']);
+        //return view('shares.index',compact('shares'));
     }
 
     /**
